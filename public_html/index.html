@@ -4,31 +4,198 @@
         <title>Eduardo Jimenez</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="foundation/css/foundation.css"/>
+        <script src="foundation/js/vendor/modernizr.js"></script>
     </head>
     <body>
-        <header>
-            <hgroup>
-                <h1>Eduardo Jimenez</h1>
-                <h2>Ing. en Comunicaciones y Electrónica</h2> 
-            </hgroup>
-
+	<div class="progress">
+	  <span class="meter" style="width:0%;"></span>
+	</div>
+        <header class="row">
+            <section>
+                <article class="small-12 medium-5 large-2 columns">
+                    <figure>
+                        <a href="#"></a>
+                        <img src="img/ejz.png" class="th"/>
+                    </figure>
+                </article>
+                <article class="small-12 medium-6 large-7 columns">
+                    <hgroup>
+                        <h1>Eduardo Jimenez</h1>
+                        <h3>Ing. en Comunicaciones y Electrónica</h3> 
+                    </hgroup>
+                </article>
+                <article  class="small-12 medium-12 large-3 columns">
+                    <strong>Contacto:</strong><br/>
+                    <a href="mailto:eduardojiza@gmail.com">eduardojiza@gmail.com</a>
+                </article>
+            </section>
         </header>
         
-        <nav>
-            <ul>
-                <li>Formación</li>
-                <li>Experiencia</li>
-                <li>Informática</li>
-                <li>Competencias</li>
+        <nav class="top-bar row" data-topbar role="navigation">
+          <ul class="title-area">
+            <li class="name">
+              <h1><a href="#">Eduardo</a></h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+          </ul>
+
+          <section class="top-bar-section">
+            <!-- Right Nav Section -->
+            <ul class="right">
+              <li class="active"><a href="mailto:eduardojiza@gmail.com">Contacto</a></li>
+              <li class="has-dropdown">
+                <a href="#">Social</a>
+                <ul class="dropdown">
+                  <li><a href="https://www.facebook.com/zamuc">Facebook</a></li>
+                  <li><a href="https://twitter.com/zamueduardo">Twitter</a></li>
+                  <li><a href="https://github.com/eduardojiza">GitHub1</a></li>
+                  <li><a href="https://github.com/JiZamu">GitHub2</a></li>
+                </ul>
+              </li>
             </ul>
+
+            <ul class="left">
+              <li><a href="#formacion">Formación</a></li>
+              <li><a href="#experiencia">Experiencia</a></li>
+              <li><a href="#conocimientos">Conocimientos</a></li>
+            </ul>
+          </section>
         </nav>
         
-        <section>
+        <section>    
+            <article class="row">
+                <header><h1>Perfil profesional</h1></header>
+                <div class="panel">
+                    <p>Soy una persona en busca de cosas nuevas que aprender.
+                       En las actividades que realizo siempre tengo presente el hacerlas
+                       de manera responsable, honesta y congruente.
+                       Cuento una caracteristica que me han ayudado en mi trayectoria
+                       la cual es jamas me rindo.</p>
+                </div>
+            </article>
             
+            <article class="row" data-equalizer>
+                <a name="formacion"></a>
+                <header><h1>Formación</h1></header>
+                <section>
+                    <article class="small-12 medium-6 large-5 columns panel" data-equalizer-watch>
+                        <strong>Academica:</strong><br/>
+                        Ing. En Comunicaciones y Electrónica<br/>
+                        Escuela Superior de Ingenieria Mecanica y Electrica
+                    </article>
+                    
+                    <article class="small-12 medium-6 large-5 columns panel" data-equalizer-watch>
+                        <strong>Cursos:</strong>
+                        <ul>
+                            <li>“CURSO PROFESIONAL DE GIT Y GITHUB” en platzi.com</li>
+                            <li>“CURSO PROFESIONAL DE FRONTEND” en platzi.com</li>
+                            <li>“Programación de microcontroladores ARM en C” en ESIME CULHUACAN</li>
+                            <li>“Programación de microcontroladores AVR en C” en ESIME CULHUACAN</li>
+                            <li>"Armado y reparacion de computadoras" en CICAP</li>
+                            <li>"Reparación de LAPTOP a nivel de componentes" en CICAP</li>
+                        </ul>
+                    </article>
+                </section>
+            </article>
+                
+            <article class="row">
+                <a name="experiencia"></a>
+                <header><h1>Experiencia</h1></header>
+                <section class="panel">
+                    Servicio Social TELMEX<br/>
+                    <ul>
+                        <li>Creacion gestion y consultas a Bases de datos en SQL Server</li>
+                        <li>Elaboración de modulos para página WEB en ASP.NET con C# y EXT.NET</li>
+                        <li>Implementación de programas en FOXPRO</li>
+                    </ul>
+                </section>
+            </article>
+            
+            <article class="row">
+                <a name="conocimientos"></a>
+                <header><h1>Conocimientos tecnicos</h1></header>
+                <section>
+                    <div class="row" data-equalizer>
+                    <article class="small-12 medium-6 large-5 columns panel" data-equalizer-watch>
+                        <strong>Lenguajes:</strong>
+                        C/C++, Java, C#, PHP y HTML
+                        <figure>
+                            <img src="img/java.jpeg" class="th peque"/>
+                        </figure>
+                    </article>
+                    <article class="small-12 medium-6 large-5 columns panel" data-equalizer-watch>
+                        <strong>Bases de datos:</strong>
+                        SQL Server y MySQL
+                        <figure>
+                            <img src="img/mysql.png" class="th peque"/>
+                        </figure>
+                    </article>
+                    </div>
+                    <div class="row" data-equalizer>
+                     <article class="small-12 medium-6 large-5 columns panel" data-equalizer-watch>
+                        <strong>Sistemas Operativos:</strong>
+                        GNU/Linux y MAC OS X
+                        <figure>
+                            <img src="img/linux.jpeg" class="th peque"/>
+                        </figure>
+                    </article>   
+                    <article class="small-12 medium-6 large-5 columns panel" data-equalizer-watch>
+                        <strong>Programación básica:</strong>
+                        Android, GNU/Linux, Bash y Batch
+                        <figure>
+                            <img src="img/android.png" class="th peque"/>
+                        </figure>
+                    </article>   
+                    </div>
+                    <div class="row" data-equalizer>
+                     <article class="small-12 medium-6 large-5 columns panel" data-equalizer-watch>
+                        <strong>Uso:</strong>
+                        Uso de NetBeans, Visual Studio, Android Studio y Sublime Text
+                        <figure>
+                            <img src="img/netbeans.jpeg" class="th peque"/>
+                        </figure>
+                    </article>   
+                    
+                    <article class="small-12 medium-6 large-5 columns panel" data-equalizer-watch>
+                        <strong>Manejo:</strong>
+                        Git y GitHub
+                        <figure>
+                            <img src="img/github.jpeg" class="th peque"/>
+                        </figure>
+                    </article> 
+                    </div>
+
+                </section>
+            </article>
+        
+            <article class="row">
+                <header><h1>Conocimietos de idiomas</h1></header>
+                <section class="panel">
+                    <p>Inglés tecnico e Inglés basico</p>
+                </section>
+            </article>
+                
+            <article class="row">
+                <header><h1>Competencias</h1></header>
+                <section class="panel">
+                    <p>Trabajo en equipo, emprendedor, autoaprendizaje, responsable, puntual y organizado.<br/>
+                    Liderazgo: Formación de equipo WHILE en escuela, con el fin de elaborar dispositivos de
+                    domótica al alcance de todos.</p>
+                </section>
+            </article>
         </section>
         
-        <footer>
-            Disenado por Eduardo Jimenez Zamudio @2015
+        <footer class="row">
+            <div class="large-12 columns">
+            <h5>Disenado por Eduardo Jimenez Zamudio @2015</h5>
+            </div>
         </footer>
+        
+        <script src="foundation/js/vendor/jquery.js"></script>
+        <script src="foundation/js/foundation.min.js"></script>
+        <script>
+          $(document).foundation();
+        </script>
     </body>
 </html>
